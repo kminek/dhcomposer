@@ -5,19 +5,13 @@ shell script to automate Composer install on shared DreamHost account
 ## installation
 
 1. ssh into your account and clone dhcomposer repository:
-	```
-	git clone https://github.com/kminek/dhcomposer
-	```
+ > git clone https://github.com/kminek/dhcomposer
 2. run the script:
-	```
-	cd dhcomposer
-	chmod u+x dhcomposer.sh
-	source dhcomposer.sh
-	```
+ > cd dhcomposer
+ > chmod u+x dhcomposer.sh
+ > source dhcomposer.sh
 3. verify composer install:
-	```
-	composer --version
-	```
+ > composer --version
 4. enjoy
 
 ## credits
