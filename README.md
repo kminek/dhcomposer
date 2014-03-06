@@ -18,7 +18,7 @@ shell script to automate Composer install on shared DreamHost account
    source dhcomposer.sh
    ````
 
-3. verify composer install:
+3. verify Composer install:
 
    ````
    composer --version
