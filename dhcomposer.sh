@@ -17,6 +17,8 @@ until [ "$selection" = "0" ]; do
 	echo ""
 	echo "1 - PHP 5.3"
 	echo "2 - PHP 5.4"
+	echo "3 - PHP 5.5"
+	echo "4 - PHP 5.6"
 	echo ""
 	echo "0 - do nothing, exit"
 	echo ""
@@ -26,8 +28,10 @@ until [ "$selection" = "0" ]; do
 	case $selection in
 		1 ) VER="5.3"; break ;;
 		2 ) VER="5.4"; break ;;
+		3 ) VER="5.5"; break ;;
+		4 ) VER="5.5"; break ;;
 		0 ) return ;;
-		* ) echo "Please enter 1, 2, or 0"
+		* ) echo "Please enter 1, 2, 3, 4 or 0"
 	esac
 done
 
